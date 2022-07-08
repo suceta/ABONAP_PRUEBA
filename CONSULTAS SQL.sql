@@ -68,10 +68,10 @@ GO
 
 ---------TABLA PRESTAMOS)
 INSERT INTO Prestamos 
-			(Codigo, Estado,IdCliente, idSucursal,Monto,FechaCreacion)
-	values ('PRES00001' ,'C', 1,1,55000,'2022-02-07')
-		  ,('PRES00002'  , 'A',1, 2,125000,'2022-07-04')
-		  ,('PRES00003'  , 'A',2, 3,235000,'2022-07-07')
+			(Codigo, Estado,IdCliente, idSucursal,Monto,FechaCreacion,FechaActualizacion)
+	values ('PRES00001' ,'C', 1,1,55000,'2022-02-07','2022-02-07')
+		  ,('PRES00002'  , 'A',1, 2,125000,'2022-07-04','2022-07-04')
+		  ,('PRES00003'  , 'A',2, 3,235000,'2022-07-07','2022-07-04')
 GO
 
 --------------------- procedimiento almacenado TEMA 7)
